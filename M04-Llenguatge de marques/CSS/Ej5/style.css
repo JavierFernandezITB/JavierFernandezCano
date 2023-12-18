@@ -1,0 +1,11 @@
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+p:last-child {
+    clear: both;
+}

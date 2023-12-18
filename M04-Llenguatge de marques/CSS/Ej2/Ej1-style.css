@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+h2 {
+    color: grey;
+    text-decoration: underline;
+}
+
+span {
+    color: red;
+}
+
+p {
+    font-style: italic;
+}
+
+ol, ul {
+    list-style-type: upper-roman;
+}
+
+h2, span, p, ol, ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.franky {
+    background-color: green;
+    color: grey;
+}
+
+.avi {
+    background-color: cyan;
+    color: blue;
+}
+
+.tony {
+    background-color: red;
+    color: yellow;
+}
+
+.boris {
+    background-color: yellow;
+    color: red;
+}
+
+.url_list li a {
+    color: green;
+    text-transform: uppercase;
+}

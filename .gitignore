@@ -1,0 +1,5 @@
+# Not needed in this repo. 
+BINARIOS
+
+# Ignore executables.
+*.exe

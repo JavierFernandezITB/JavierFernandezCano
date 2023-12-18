@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css"?>
+
+<perfilpersonal>
+    <datos>
+        <nombre>
+            Javier
+        </nombre>
+        <apellido>
+            Fernández
+        </apellido>
+    </datos>
+    <departamentos>
+        Dept. Informàtica
+        <departamento>
+            - M04
+        </departamento>
+        <departamento>
+            - M02
+        </departamento>
+        <departamento>
+            - M08
+        </departamento>
+    </departamentos>
+</perfilpersonal>

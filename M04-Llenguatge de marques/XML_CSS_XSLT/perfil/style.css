@@ -1,0 +1,24 @@
+perfilpersonal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nombre {
+    font-size: 3rem;
+}
+
+apellido {
+    font-size: 3rem;
+}
+
+departamentos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+departamento {
+    padding: 1.5rem;
+    font-style: italic;
+}

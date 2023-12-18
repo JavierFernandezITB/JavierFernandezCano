@@ -1,0 +1,77 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    background-color: lightgray;
+    padding: 1%;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav h3 {
+    background-color: gray;
+    color: white;
+    padding-left: 5%;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+main section {
+    border: 1px;
+    border-style: dotted;
+    border-left: solid;
+    border-left-color: orange;
+    margin-bottom: 1rem;
+}
+
+main article, img {
+    margin-left: 1rem;
+}
+
+main img {
+    margin-top: 1rem;
+}
+
+.datos-personales ol li{
+    list-style-type: circle;
+}
+
+.value-name {
+    list-style-type: circle;
+    color: green;
+    font-style: italic;
+}
+
+.exp-profesional ol li, .formacion ol li, .competencias ol li {
+    list-style-type: none;
+    margin-left: -2rem;
+    margin-right: 2rem;
+}
+
+.exp-profesional ol li:not(:last-child), .formacion ol li:not(:last-child) {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    border: 1px;
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.from-to-date {
+    font-weight: bold;
+}
+
+.description {
+    color: green;
+}
+
+.location {
+    font-style: italic;
+}
+

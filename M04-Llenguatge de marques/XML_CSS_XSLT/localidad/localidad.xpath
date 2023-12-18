@@ -1,0 +1,6 @@
+cat /root/prediccion/dia[@fecha="2023-11-11"]/humedad_relativa/*/text()
+cat /root/prediccion/dia[last()]/@fecha
+cat /root/prediccion/dia/temperatura/minima[text()>10]
+cat /root/prediccion/dia/temperatura/minima[text()>2] and text()<9]
+cat /root/prediccion/dia/racha_max[@periodo]
+cat /root/prediccion/dia/estado_cielo[@descripcion="Poco nuboso" and @periodo="06-24"]/../@fecha

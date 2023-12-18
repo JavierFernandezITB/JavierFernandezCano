@@ -1,0 +1,5 @@
+xpath /libreria/libro[autor="Maria Barbal"]
+xpath /libreria/libro[precio<35.00]
+xpath /libreria/libro/fechaPublicacion
+xpath /libreria/libro/titulo
+xpath /libreria/libro[last()]
